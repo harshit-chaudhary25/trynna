@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Babu Daudayal Advocate Saraswati Vidya Mandir Senior Secondary School</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+
+</head>
+<body >
+
+<!-- CINEMATIC INTRO OVERLAY -->
+<div class="cinematic-intro">
+  <div class="intro-layer"></div>
+  <div class="intro-content">
+    <p>ज्ञान • अनुशासन • उत्कृष्टता</p>
+  </div>
+</div>
+
+<div class="cinematic-progress">
+  <div class="cinematic-progress-fill"></div>
+</div>
+
+
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+ <h2>Babu Daudayal Advocate Saraswati Vidya Mandir Senior Secondary School</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<div class="wrapper">
+
+
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero section">
+<h1 class="bdasvm-title">
+  <span>B</span>
+  <span>D</span>
+  <span>A</span>
+  <span>S</span>
+  <span>V</span>
+  <span>M</span>
+</h1>
+  <p class="hero-text">Knowledge • Discipline • Values</p>
+</section>
+
+ <!-- Leadership Section -->
+<div class="leadership-section">
+
+  <!-- Principal Tile -->
+  <div class="leader-tile">
+     <img src="/pngtree-cartoon-character-of-an-architect-with-glasses-clipart-vector-png-image_6980724-removebg-preview.png" class="leader-photo">
+    <h3 class="leader-title">Principal</h3>
+    <h2 class="leader-name">Dr. __________</h2>
+    <p class="leader-intro">
+      Babu Daudayal Advocate Saraswati Vidya Mandir Senior Secondary School
+      is committed to academic excellence, discipline, and value-based education.
+      Our goal is to nurture confident, responsible, and knowledgeable students.
+    </p>
+  </div>
+
+  <!-- Manager Tile -->
+  <div class="leader-tile">
+    <h3 class="leader-title">Manager</h3>
+    <h2 class="leader-name">Shri __________</h2>
+    <p class="leader-intro">
+      Our management continuously works to provide a safe, modern, and inspiring
+      learning environment. We believe strong infrastructure and values are the
+      foundation of a successful institution.
+    </p>
+  </div>
+
+</div>
+
+
+<!-- CLASSROOM -->
+<section class="classroom">
+  <br> <div class="blackboard">
+    <span class="chalk-text"><h2><b>About Our School</b></h2>    <Br>    <P><h6>Babu Daudayal Advocate Saraswati Vidya Mandir Senior Secondary School
+      is dedicated to providing quality education rooted in values,
+      discipline, and academic excellence. We aim to nurture responsible
+      citizens and lifelong learners.</h6></P></span>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="features section">
+  <div class="card">Strong Academic Foundation</div>
+  <div class="card">Moral & Cultural Values</div>
+  <div class="card">Experienced Faculty</div>
+</section>
+
+<!-- ================= SCHOOL INFRASTRUCTURE ================= -->
+<section class="infrastructure-section section">
+  <h1>Our School Infrastructure</h1>
+  <p>Explore the modern facilities and laboratories that make learning interactive and advanced.</p>
+
+  <div class="infra-cards">
+    <div class="infra-card">
+      <img src="images/bio-lab.jpg" alt="Biology Lab">
+      <h3>Biology Lab</h3>
+      <p>Fully equipped lab for experiments in Botany, Zoology, and Microbiology.</p>
+    </div>
+
+    <div class="infra-card">
+      <img src="images/ai-lab.jpg" alt="AI Lab">
+      <h3>AI Lab</h3>
+      <p>State-of-the-art Artificial Intelligence lab for coding, robotics, and machine learning.</p>
+    </div>
+
+    <div class="infra-card">
+      <img src="images/physics-lab.jpg" alt="Physics Lab">
+      <h3>Physics Lab</h3>
+      <p>Hands-on lab for experiments in Mechanics, Optics, and Thermodynamics.</p>
+    </div>
+
+    <div class="infra-card">
+      <img src="images/chemistry-lab.jpg" alt="Chemistry Lab">
+      <h3>Chemistry Lab</h3>
+      <p>Well-equipped Chemistry lab for experiments in Organic, Inorganic, and Physical Chemistry.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ================= POPUP OVERLAY ================= -->
+<div class="lab-popup" id="labPopup">
+  <div class="popup-content">
+    <span class="close-popup">&times;</span>
+    <img id="popup-img" src="" alt="Lab">
+    <h2 id="popup-title"></h2>
+  </div>
+</div>
+
+
+
+  <section class="gallery-categories">
+    <h1>School Gallery</h1>
+    <div class="category-cards">
+
+      <a href="events.html" class="category-card">
+        <img src="/Events/Events.jpeg" alt="Events">
+        <h3>Events</h3>
+      </a>
+
+      <a href="sports.html" class="category-card">
+        <img src="/Sports/Sports.jpeg" alt="Sports">
+        <h3>Sports</h3>
+      </a>
+
+      <a href="annual.html" class="category-card">
+        <img src="/Annual/Annual.jpeg" alt="Annual Function">
+        <h3>Annual Function</h3>
+      </a>
+
+    </div>
+  </section>
+  
+
+
+<!-- CONTACT SECTION -->
+<section class="vx-contact">
+  <div class="vx-contact__glass">
+
+    <b><h2 class="vx-contact__title">Contact Me</h2></b>
+
+    <form
+      class="vx-contact__form"
+      action="https://submit-form.com/9vouuhuva"
+      method="POST"
+    >
+      <b><label for="vx-name">Your Name</label></b>
+      <input id="vx-name" name="your-name" type="text" placeholder="Your Name" required>
+
+      <b><label for="vx-email">Your Email</label></b>
+      <input id="vx-email" name="your-email" type="email" placeholder="Your Email" required>
+
+      <b><label for="vx-message">Message</label></b>
+      <textarea id="vx-message" name="message" rows="5" placeholder="We would love to hear your thoughts!" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact-section section">
+  <h1>Contact Us</h1>
+  <div class="contact-flex center-flex">
+    
+    <!-- Contact Details -->
+    <div class="contact-info">
+      <p><strong>Address:</strong><br>
+        Babu Daudayal Advocate Saraswati Vidya Mandir<br>
+        Senior Secondary School<br>
+        Your City, State, PIN
+      </p>
+      <p><strong>Phone:</strong><br> +91 XXXXXXXXXX</p>
+      <p><strong>Email:</strong><br> info@bdavsaraswati.edu.in</p>
+    </div>
+    
+    <!-- Google Map -->
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXXXXXX!2dXXXXXX!3dXXXXXX!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xXXXXXXXXXXXX%3AXXXXXXXXXXXXX!2sSchool%20Location!5e0!3m2!1sen!2sin!4vXXXXXX"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= THANK YOU ================= -->
+<section class="thankyou-section section">
+  <h1>Thank You</h1>
+  <p>
+    Thank you for visiting the official website of <br>
+    <strong>Babu Daudayal Advocate Saraswati Vidya Mandir Senior Secondary School</strong>.
+    <br>We look forward to guiding students towards knowledge, character, and excellence.
+  </p>
+</section>
+
+</div>
+
+<!-- ================= FLOATING CONTACT BUTTONS ================= -->
+<div class="floating-buttons">
+  <a href="tel:+911234567890" class="float-btn call-btn" title="Call Us">
+    📞
+  </a>
+
+  <a href="https://www.facebook.com/BDASVM.MATHURA.2016/" target="_blank" class="float-btn fb-btn" title="Facebook">
+    f
+  </a>
+<a href="https://www.instagram.com/bdasvm/" target="_blank" class="float-btn ig-btn" title="Instagram">
+    𝕏
+  </a>
+  <a href="mailto:info@school.com" class="float-btn email-btn" title="Email Us">
+    📨
+  </a>
+</div>
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <p>
+    © 2026 Babu Daudayal Advocate Saraswati Vidya Mandir Senior Secondary School<br>
+    All Rights Reserved
+  </p>
+</footer>
+
+
+<script src="script.js"></script>
+
+<!-- MOVING WIRES BACKGROUND -->
+<div class="wires-layer">
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span>
+</div>
+
+<!-- SCHOOL TECH MOTIFS -->
+<div class="school-tech-layer">
+  <span data-icon="📘"></span>
+  <span data-icon="🔬"></span>
+  <span data-icon="🧠"></span>
+  <span data-icon="💡"></span>
+  <span data-icon="🎓"></span>
+</div>
+
+
+
+
+</body>
+</html>
