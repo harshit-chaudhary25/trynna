@@ -1,0 +1,2 @@
+# trynna
+web
